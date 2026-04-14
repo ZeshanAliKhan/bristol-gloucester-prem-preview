@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zeshanalikhan.github.io/bristol-gloucester-prem-preview/sitemap.xml
