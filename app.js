@@ -79,7 +79,6 @@
           <div><span>Venue</span><strong>${escapeHTML(data.venue || fallback.venue)}</strong></div>
           <div><span>Kickoff</span><strong>${formatDate(data.kickoffLocal || fallback.kickoffLocal)}</strong></div>
         </div>
-        <p><strong>Last updated:</strong> ${formatDate(data.lastUpdated || fallback.lastUpdated)}</p>
         <ul class="note-list">${notes.map((note) => `<li>${escapeHTML(note)}</li>`).join("")}</ul>
       </div>
     `;
